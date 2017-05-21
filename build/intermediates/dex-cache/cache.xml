@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="240e5af6cbbcb24522c5f70695bee1c61a87bf11">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\VuforiaUnityPlayer_69038f93889d46bcaf3c07d8cdb3f971ce1079cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c273dd9fa2eed345a0a3f11e2c0f0db7e8cf2c8">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\Vuforia_3c9fb598b07d4a9b4c39a98047017b53c625004f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_6603a7df879b1c6f46e14dc278b633420c9b7466.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_5bc8868ef509aaa5d46cb6db0724b58dffe9aa95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.client.mqttv3\1.0.2\11752d3f24d1a9deda4533a7ca18d8496417ceeb\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11752d3f24d1a9deda4533a7ca18d8496417ceeb">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-1.0.2_a97e675e63fba80e750e38cde7a3611404a25c9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_89003990ecf7e7d5c98e40fa96dce7252fe033c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_1bdfa83222af71b88b367d5da1539ad6959730e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_9c0ff5819f5c4d0641401fb8cacfd42146cf4954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.android.service\1.0.2\442f81337cb942a855ab20a4a16bfe43adb612c7\org.eclipse.paho.android.service-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442f81337cb942a855ab20a4a16bfe43adb612c7">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-1.0.2_6442df3b9a2796dda1f41e7eb7fa915cc68a2cc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_ce063ba0930fc99f2527f7a320dd89b6d9602111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_f6134c8b2db3f3921dddc2cea2ff3ec0fee6001f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_92ff17274769bbd96504e86ad77e831a19989a5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1684ad1797f98c307993dcd081fb2a7b28d63ffc">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\unity-classes_9db8ee8d8de2052e715517f2b8377b1f11c11820.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f4205d3d5cc9a31b2df4870a21ee67869b3adff">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7029f33641f52cf50c844849f86e0cbb70ac5268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_4ad99e0a5364826cbb76d1168d949ebf09dc3f01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fde0cf16154239e13890ac6148af603709b7d7ca">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\instant-run_066ce0b4e96adfbafa1a7c1ee7f2c77257a27664.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_6073eb158962c9cfa169eb38fc9ee301fd318531.jar" />
+    </item>
+
+</items>

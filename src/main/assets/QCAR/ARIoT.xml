@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="detectors-lyric" size="15.000000 15.000000"/>
+        <ImageTarget name="detectors-nest_smoke1" size="15.000000 15.000000"/>
+        <ImageTarget name="light_bulbs-esp1OLD" size="50.000000 35.000000"/>
+        <ImageTarget name="detectors-nest_smoke1OLD" size="50.000000 32.187500"/>
+        <ImageTarget name="nest-try.Left" size="1.500000 5.277778"/>
+        <ImageTarget name="nest-try.Right" size="1.500000 5.277778"/>
+        <ImageTarget name="nest-try.Front" size="5.300000 5.300000"/>
+        <MultiTarget name="nest-try">
+            <Part name="nest-try.Left" translation="-2.6500000953674316 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="nest-try.Right" translation="2.6500000953674316 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="nest-try.Front" translation="0 0 0.75" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
