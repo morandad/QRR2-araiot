@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:2:70-91
 	android:versionName
@@ -19,17 +19,17 @@ ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidMa
 		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:2:92-139
 uses-sdk
 ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:3:3-72
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\.android\build-cache\350efc4e6809a8ab3b234572bb7b87e1c07b75b7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\User\.android\build-cache\9fad2b0005e3c05e88c7b405e6d829faef184bf1\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\User\.android\build-cache\64b11109d18104c4e73ff1d20f8926fe55355091\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\User\.android\build-cache\e13e131af305bb1c876e45a9cd9a02ff965aa1da\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\User\.android\build-cache\c19916901221e27bdadc71e0ce9654eb16cd56d1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\User\.android\build-cache\fb29c0ca7b6aef7c271d2a3c4843d43c11bca425\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\User\.android\build-cache\e358a7467d6bb66118f1e091a9bf32423fa55498\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\User\.android\build-cache\424e5a7dcf843e713ce941f780c616dbb8f124f2\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\User\.android\build-cache\eadf6d67f3227aa4661a98d51885a305d4c90a3c\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\.android\build-cache\350efc4e6809a8ab3b234572bb7b87e1c07b75b7\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:3:40-69
 		INJECTED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml
@@ -80,124 +80,148 @@ uses-permission#android.permission.VIBRATE
 ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:12:3-64
 	android:name
 		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:12:20-61
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:3-76
+	android:name
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:20-74
+uses-permission#android.permission.NETWORK
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:15:3-63
+	android:name
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:15:20-61
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:17:3-74
+	android:name
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:17:20-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:18:3-74
+	android:name
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:18:20-71
 application
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:3-36:17
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:3-46:17
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\User\.android\build-cache\350efc4e6809a8ab3b234572bb7b87e1c07b75b7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\User\.android\build-cache\9fad2b0005e3c05e88c7b405e6d829faef184bf1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\User\.android\build-cache\64b11109d18104c4e73ff1d20f8926fe55355091\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\User\.android\build-cache\e13e131af305bb1c876e45a9cd9a02ff965aa1da\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\User\.android\build-cache\c19916901221e27bdadc71e0ce9654eb16cd56d1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\User\.android\build-cache\fb29c0ca7b6aef7c271d2a3c4843d43c11bca425\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\User\.android\build-cache\e358a7467d6bb66118f1e091a9bf32423fa55498\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\User\.android\build-cache\424e5a7dcf843e713ce941f780c616dbb8f124f2\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\User\.android\build-cache\eadf6d67f3227aa4661a98d51885a305d4c90a3c\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:50-82
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:50-82
 	android:icon
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:16-49
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:16-49
 	android:banner
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:164-201
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:164-201
 	android:theme
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:83-141
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:83-141
 	android:isGame
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:13:142-163
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:142-163
 activity#com.example.UnityPlayerNativeActivity
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:5-21:16
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:5-28:16
 	android:screenOrientation
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:48-86
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:48-86
 	android:label
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:15-47
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:15-47
 	android:launchMode
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:87-118
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:87-118
 	android:configChanges
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:119-276
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:119-276
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:14:277-329
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:21:277-329
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:15:7-18:23
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:7-25:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:16:9-61
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:23:9-61
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:16:17-58
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:23:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:17:9-69
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:24:9-69
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:17:19-66
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:24:19-66
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:19:7-82
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:26:7-82
 	android:value
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:19:59-79
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:26:59-79
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:19:18-58
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:26:18-58
 meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:7-97
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:27:7-97
 	android:value
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:73-94
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:27:73-94
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:20:18-72
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:27:18-72
 activity#com.unity3d.player.VideoPlayer
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:5-23:16
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:29:5-30:16
 	android:screenOrientation
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:94-130
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:29:94-130
 	android:label
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:61-93
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:29:61-93
 	android:configChanges
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:131-288
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:29:131-288
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:22:15-60
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:29:15-60
 service#org.eclipse.paho.android.service.MqttService
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:25:5-84
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:32:5-84
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:25:14-73
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:32:14-73
 uses-library#com.ti.s3d
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:31:5-72
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:5-72
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:31:45-69
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:45-69
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:31:19-44
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:19-44
 uses-library#com.osterhoutgroup.api.ext
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:35:5-88
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:5-88
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:35:61-85
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:61-85
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:35:19-60
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:19-60
+service#com.example.wifi.WifiIntentReceiver
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:43:5-45:36
+	android:enabled
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:44:9-31
+	android:exported
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:43:14-64
 uses-feature#0x00020000
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:37:3-52
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:47:3-52
 	android:glEsVersion
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:37:17-49
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:47:17-49
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:3-93
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:48:3-93
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:66-90
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:48:66-90
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:38:17-65
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:48:17-65
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:39:3-89
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:49:3-89
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:39:62-86
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:49:62-86
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:39:17-61
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:49:17-61
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:40:3-105
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:50:3-105
 	android:maxSdkVersion
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:40:76-102
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:50:76-102
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:40:20-75
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:50:20-75
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:41:3-88
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:51:3-88
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:41:61-85
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:51:61-85
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:41:17-60
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:51:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:3-99
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:52:3-99
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:72-96
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:52:72-96
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:42:17-71
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:52:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:43:3-108
+ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:53:3-108
 	android:required
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:43:81-105
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:53:81-105
 	android:name
-		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:43:17-80
+		ADDED from C:\Users\User\UnityProjects\ariotToAndroid3.1\QRR2\src\main\AndroidManifest.xml:53:17-80

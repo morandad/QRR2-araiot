@@ -1,9 +1,18 @@
 package com.example;
 
-import com.unity3d.player.*;
-import android.app.NativeActivity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings;
+import android.support.v4.content.LocalBroadcastManager;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +20,10 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.internal.Constants;
+import com.example.internal.Utils;
+import com.example.wifi.WifiIntentReceiver;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
 import org.eclipse.paho.client.mqttv3.IMqttActionListener;
@@ -35,6 +48,14 @@ public class UnityPlayerNativeActivity extends UnityPlayerActivity {
 	String[] lightBulbsTopicsArr={"responseIP","sendstatus"};
 	String[] nestSmokeTopicsArr={"sendstatus"};
 	String[] lyricWaterLeak={"waterPresentResp","requeststatusResp"};
+
+
+	private SharedPreferences sharedPreferences;
+	private String strUsername;
+	private String strServer;
+	private String strGroup;
+	private int trackVal;
+	Handler handler = new Handler();
 
 	public static UnityPlayerNativeActivity instance;
 
@@ -136,6 +157,43 @@ public class UnityPlayerNativeActivity extends UnityPlayerActivity {
 
 			}
 		});
+
+
+		// Checking if the Location service is enabled in case of Android M or above users
+		if (!Utils.isLocationAvailable(getApplicationContext())) {
+			AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+			dialog.setMessage("Location service is not On. Users running Android M and above have to turn on location services for FIND to work properly");
+			dialog.setPositiveButton("Enable Locations service", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+					Intent myIntent = new Intent( Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+					startActivity(myIntent);
+				}
+			});
+			dialog.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+
+				@Override
+				public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+					logMeToast("Thank you!! Getting things in place.");
+				}
+			});
+			dialog.show();
+		}
+
+		// Listener to the broadcast message from WifiIntent
+		LocalBroadcastManager.getInstance(getApplicationContext()).registerReceiver(mMessageReceiver,
+				new IntentFilter(Constants.TRACK_BCAST));
+
+		// Getting values from Shared prefs for Tracking
+		sharedPreferences = this.getSharedPreferences(Constants.PREFS_NAME, 0);
+		strGroup = sharedPreferences.getString(Constants.GROUP_NAME, Constants.DEFAULT_GROUP);
+		strUsername = sharedPreferences.getString(Constants.USER_NAME, Constants.DEFAULT_USERNAME);
+		strServer = sharedPreferences.getString(Constants.SERVER_NAME, Constants.DEFAULT_SERVER);
+		trackVal = sharedPreferences.getInt(Constants.TRACK_INTERVAL, Constants.DEFAULT_TRACKING_INTERVAL);
+
+
+		handler.post(runnableCode);
+
 	}
 
 
@@ -229,7 +287,7 @@ public class UnityPlayerNativeActivity extends UnityPlayerActivity {
 		return "sendMessageToMQTT";
 	}
 
-	//*************************************************************************************
+	//******************************NOT IN USE*******************************************************
 	public void createButtonsForDebug() {
 
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -278,6 +336,65 @@ public class UnityPlayerNativeActivity extends UnityPlayerActivity {
 		//View playerView = mUnityPlayer.getView();
 		//setContentView(playerView);
 	}
+	//****************************END NOT IN USE*****************************************************
+
+    //****************************FIND APP FUNCTIONS**************************************************
+    // Getting the CurrentLocation from the received braodcast
+	private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			String currLocation = intent.getStringExtra("location");
+			//currLocView.setTextColor(getResources().getColor(R.color.currentLocationColor));
+			//currLocView.setText(currLocation);
+			Log.d("location", currLocation);
+			Toast.makeText(getApplicationContext(), currLocation, Toast.LENGTH_LONG).show();
+		}
+	};
+
+	// Timers to keep track of our Tracking period
+	private Runnable runnableCode = new Runnable() {
+		@Override
+		public void run() {
+			if (Build.VERSION.SDK_INT >= 23 ) {
+				if(Utils.isWiFiAvailable(getApplicationContext()) && Utils.hasAnyLocationPermission(getApplicationContext())) {
+					Intent intent = new Intent(getApplicationContext(), WifiIntentReceiver.class);
+					intent.putExtra("event", Constants.TRACK_TAG);
+					intent.putExtra("groupName", strGroup);
+					intent.putExtra("userName", strUsername);
+					intent.putExtra("serverName", strServer);
+					intent.putExtra("locationName", sharedPreferences.getString(Constants.LOCATION_NAME, ""));
+					startService(intent);
+				}
+			}
+			else if (Build.VERSION.SDK_INT < 23) {
+				if(Utils.isWiFiAvailable(getApplicationContext())) {
+					Intent intent = new Intent(getApplicationContext(), WifiIntentReceiver.class);
+					intent.putExtra("groupName", strGroup);
+					intent.putExtra("userName", strUsername);
+					intent.putExtra("serverName", strServer);
+					intent.putExtra("locationName", sharedPreferences.getString(Constants.LOCATION_NAME, ""));
+					startService(intent);
+				}
+			}
+			else {
+				return;
+			}
+			handler.postDelayed(runnableCode, 5000); //trackVal * 1000
+		}
+	};
 
 
+
+	// Logging message in form of Toasts
+	private void logMeToast(String message) {
+		Log.d("logMeToast", message);
+		toast(message);
+	}
+
+	private void toast(String s) {
+		Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+	}
+
+    //****************************END FIND APP FUNCTIONS**************************************************
 }
+

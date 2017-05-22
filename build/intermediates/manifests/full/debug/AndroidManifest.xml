@@ -26,6 +26,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.NETWORK" />
+    <!-- WiFi permissions and features -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <uses-feature android:glEsVersion="0x00020000" />
     <uses-feature
@@ -94,6 +99,11 @@
         <uses-library
             android:name="com.osterhoutgroup.api.ext"
             android:required="false" />
+
+        <service
+            android:name="com.example.wifi.WifiIntentReceiver"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest> <!-- android:installLocation="preferExternal" -->
